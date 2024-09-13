@@ -1,0 +1,47 @@
+body {
+    background-color: #54a8e0; /* Fondo oscuro */
+}
+header {
+    background-color: #fdcf04; 
+    
+}
+header .row {
+    display: flex;
+    align-items: center;
+   
+}
+
+
+
+.casino-title {
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.img-logo{
+	padding: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.btncarta img {
+    background-color: transparent; /* Hace que el fondo sea transparente */
+    border: none; /* Elimina el borde de la imagen */
+    box-shadow: none; /* Elimina cualquier sombra de la imagen */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Asegura que las líneas se unan */
+}
+
+table, th, td {
+    border: 1px solid #000; /* Añade un borde de 1px de color negro */
+}
+
+th, td {
+    padding: 8px; /* Añade un poco de espacio alrededor del texto */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
